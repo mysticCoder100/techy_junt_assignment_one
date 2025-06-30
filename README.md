@@ -98,11 +98,11 @@ All endpoints are prefixed with api/students
 ### Use query parameters on GET api/students:
 
 - page, limit
-- lastNameSearch
+- lastName
 
 Example:
 ```aiignore
-GET api/students?page=2&limit=5&lastNameSearch=ali&minAge=20
+GET api/students?page=2&limit=5&lastName=ali
 ```
 
 
