@@ -1,6 +1,6 @@
-import StudentModel from "../Models/UserModel.js";
+import StudentModel from "../Models/StudentModel.js";
 
-export default class UserController {
+export default class StudentController {
 	static async createStudents(req, res) {
 		try {
 			const { firstName, lastName, email, age } = req.body;
